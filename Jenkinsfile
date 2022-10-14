@@ -2,7 +2,7 @@ pipeline{
     agent{
         label "terra"
     }
-    Stages{
+    stages{
         stage('vcs'){
             steps{
                 git url: 'https://github.com/saisatyateja/terraformPractice.git' ,
