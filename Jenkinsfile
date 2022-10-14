@@ -5,8 +5,8 @@ pipeline{
     Stages{
         stage('vcs'){
             steps{
-                git url: ,
-                branch:
+                git url: 'https://github.com/saisatyateja/terraformPractice.git' ,
+                branch: 'main'
             }
         }
          stage('applt terraform to s3'){
