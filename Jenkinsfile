@@ -13,7 +13,7 @@ pipeline{
             steps{
                 sh 'terraform init'
                 sh 'terraform validate'
-                sh 'terraform aplpy -auto-approve'
+                sh 'terraform apply -auto-approve'
             }
         }
     }
