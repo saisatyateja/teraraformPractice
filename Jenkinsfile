@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "terra"
+        label "terraform"
     }
     stages{
         stage('vcs'){
