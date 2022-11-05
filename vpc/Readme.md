@@ -4,10 +4,10 @@
 
  1. writing a template for creating vpc.
  2. arguments requried to create a vpc are
-        - provider for Terrafrm ("aws")
-        - resource name ("aws_vpc")
-        - cidr range argument ("cidr_block")
-        - name to vpc and the argument is ("tags")
+     - provider for Terrafrm ("aws")
+     - resource name ("aws_vpc")
+     - cidr range argument ("cidr_block")
+     - name to vpc and the argument is ("tags")
  3. provider code "provider.tf"
     `code`
 
